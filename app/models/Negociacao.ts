@@ -11,6 +11,6 @@ export class Negociacao {
     }
     get data(): Date {
         const data = new Date(this._data.getTime());
-        return this._data;
+        return data;
     }
 }
