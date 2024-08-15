@@ -1,4 +1,4 @@
-export function escape(target, propertyKey, descriptor) {
+export function escapar(target, propertyKey, descriptor) {
     const metodoOriginal = descriptor.value;
     descriptor.value = function (...args) {
         let retorno = metodoOriginal.apply(this, args);

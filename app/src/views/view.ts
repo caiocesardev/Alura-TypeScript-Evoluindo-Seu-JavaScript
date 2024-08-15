@@ -1,10 +1,10 @@
-import { inspect } from "../decorators/inspect.js";
-import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
+import { inspect } from '../decorators/inspect.js';
+import { logarTempoDeExecucao } from '../decorators/logar-tempo-de-execucao.js';
 
 export abstract class View<T> {
 
     protected elemento: HTMLElement;
-  
+
     constructor(seletor: string) {
         const elemento = document.querySelector(seletor);
         if (elemento) {
