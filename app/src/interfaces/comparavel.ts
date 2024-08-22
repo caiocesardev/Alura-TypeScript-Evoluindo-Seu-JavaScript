@@ -1,3 +1,3 @@
 export interface Comparavel<T> {
-    ehIgual(objeto: T): boolean
+    ehIgual(objeto: T): boolean;
 }
